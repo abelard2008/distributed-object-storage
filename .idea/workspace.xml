@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f6f5daa-0355-4669-b6bb-3db9c1d3d4ec" name="Default" comment="" />
+    <list default="true" id="0f6f5daa-0355-4669-b6bb-3db9c1d3d4ec" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/apiserver/heartbeat/heartbeat.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/apiserver/objects/handler.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataserver/dataServer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataserver/heartbeat/heartbeat.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataserver/locate/locate.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/objectstream/GetStream.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/objectstream/PutStream.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/rabbitmq/rabbitmq.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objects/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataserver/objects/handler.go" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,25 +55,157 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="139646654">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="go" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Go" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="go" value="5054" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Go" value="5054" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.go.postfix.template.usages.trigger">
+        <counts>
+          <entry key=".len" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.vcs.git.usages" />
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="9" selection-end-column="15" />
+            <state relative-caret-position="114">
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/objects/handler.go">
+        <entry file="file://$PROJECT_DIR$/src/dataserver/locate/locate.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="475">
+              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
               <folding>
-                <element signature="e#17#45#0" expanded="true" />
+                <element signature="e#16#59#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/apiserver/locate/locate.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-76">
+              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <folding>
+                <element signature="e#16#99#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dataserver/dataServer.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
+              <folding>
+                <element signature="e#20#66#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dataserver/heartbeat/heartbeat.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+              <folding>
+                <element signature="e#19#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/apiserver/heartbeat/heartbeat.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="61" column="26" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
+              <folding>
+                <element signature="e#19#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/apiserver/objects/handler.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="62" selection-start-line="62" selection-end-line="62" />
+              <folding>
+                <element signature="e#17#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lib/objectstream/PutStream.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+              <folding>
+                <element signature="e#22#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lib/objectstream/GetStream.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="412">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+              <folding>
+                <element signature="e#22#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lib/rabbitmq/rabbitmq.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="412">
+              <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+              <folding>
+                <element signature="e#13#69#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,7 +220,10 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="/usr/local/go" />
+  <component name="GOROOT" path="/develop/software/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -87,6 +234,18 @@
       <list>
         <option value="$PROJECT_DIR$/src/objects/handler.go" />
         <option value="$PROJECT_DIR$/src/main.go" />
+        <option value="$PROJECT_DIR$/src/lib/rabbitmq.go" />
+        <option value="$PROJECT_DIR$/src/lib/rabbitmq/rabbitmq.go" />
+        <option value="$PROJECT_DIR$/src/locate/locate.go" />
+        <option value="$PROJECT_DIR$/src/heartbeat/heartbeat.go" />
+        <option value="$PROJECT_DIR$/src/dataserver/heartbeat/heartbeat.go" />
+        <option value="$PROJECT_DIR$/src/dataserver/locate/locate.go" />
+        <option value="$PROJECT_DIR$/src/apiserver/locate/locate.go" />
+        <option value="$PROJECT_DIR$/src/dataserver/dataServer.go" />
+        <option value="$PROJECT_DIR$/src/lib/objectstream/PutStream.go" />
+        <option value="$PROJECT_DIR$/src/lib/objectstream/GetStream.go" />
+        <option value="$PROJECT_DIR$/src/apiserver/heartbeat/heartbeat.go" />
+        <option value="$PROJECT_DIR$/src/apiserver/objects/handler.go" />
       </list>
     </option>
   </component>
@@ -96,11 +255,12 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="973" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -110,19 +270,80 @@
         <subPane>
           <expand>
             <path>
-              <item name="distributed-storage-go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="distributed-storage-go" type="462c0819:PsiDirectoryNode" />
+              <item name="distributed-object-storage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributed-object-storage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="distributed-storage-go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="distributed-storage-go" type="462c0819:PsiDirectoryNode" />
+              <item name="distributed-object-storage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributed-object-storage" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="distributed-storage-go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="distributed-storage-go" type="462c0819:PsiDirectoryNode" />
+              <item name="distributed-object-storage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributed-object-storage" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="apiserver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributed-object-storage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributed-object-storage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="apiserver" type="462c0819:PsiDirectoryNode" />
+              <item name="heartbeat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributed-object-storage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributed-object-storage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="apiserver" type="462c0819:PsiDirectoryNode" />
+              <item name="locate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributed-object-storage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributed-object-storage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="apiserver" type="462c0819:PsiDirectoryNode" />
               <item name="objects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributed-object-storage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributed-object-storage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dataserver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributed-object-storage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributed-object-storage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dataserver" type="462c0819:PsiDirectoryNode" />
+              <item name="heartbeat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributed-object-storage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributed-object-storage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dataserver" type="462c0819:PsiDirectoryNode" />
+              <item name="locate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributed-object-storage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributed-object-storage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dataserver" type="462c0819:PsiDirectoryNode" />
+              <item name="objects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributed-object-storage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributed-object-storage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributed-object-storage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributed-object-storage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="objectstream" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -136,13 +357,25 @@
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Global.libraries.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
     <property name="configurable.Module.libraries.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="configurable.Project.libraries.is.expanded" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/apiserver" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/dataserver" />
+      <recent name="$PROJECT_DIR$/src/lib/rabbitmq" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -156,7 +389,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Build.go build rabbitmq.go">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -588,6 +821,20 @@
       <filePath value="$PROJECT_DIR$/src/objects/handler.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="distributed-storage-go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build rabbitmq.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="distributed-storage-go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/lib/rabbitmq.go" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
       <module name="distributed-storage-go" />
       <working_directory value="$PROJECT_DIR$" />
@@ -604,8 +851,15 @@
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Go Build.go build handler.go" />
+      <item itemvalue="Go Build.go build main.go" />
+      <item itemvalue="Go Build.go build rabbitmq.go" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build rabbitmq.go" />
+        <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build handler.go" />
       </list>
     </recent_temporary>
@@ -630,9 +884,10 @@
     <option name="totallyTimeSpent" value="1070000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="973" extended-state="0" />
+    <frame x="-3" y="31" width="1606" height="872" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25772098" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26379976" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -642,13 +897,13 @@
       <window_info id="Nl-Palette" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3291714" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32885906" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="SBT Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3291714" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32885906" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
@@ -676,20 +931,107 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/objects/handler.go">
+    <entry file="file://$PROJECT_DIR$/src/dataserver/objects/handler.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
+        <state>
           <caret line="48" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="e#17#45#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.go">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/rabbitmq/rabbitmq.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+          <folding>
+            <element signature="e#13#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataserver/dataServer.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
+          <folding>
+            <element signature="e#20#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataserver/locate/locate.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <element signature="e#16#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/objectstream/GetStream.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#22#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/objectstream/PutStream.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+          <folding>
+            <element signature="e#22#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataserver/heartbeat/heartbeat.go">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="9" selection-end-column="15" />
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding>
+            <element signature="e#19#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/apiserver/locate/locate.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-76">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="e#16#99#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/apiserver/heartbeat/heartbeat.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="61" column="26" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
+          <folding>
+            <element signature="e#19#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/apiserver/objects/handler.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+          <folding>
+            <element signature="e#17#50#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
