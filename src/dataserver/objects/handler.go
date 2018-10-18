@@ -24,7 +24,7 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 }
 
 func put(w http.ResponseWriter, r *http.Request) {
-	f, e := os.Create(os.Getenv("STORAGE_ROOT") + "/objects/" + strings.Split(r.URL.EscapedPath(),"/")[2])
+	f, e := os.Create(os.Getenv("STORAGE_ROOT") + "/" + os.Getenv("OBJECT_DIR") + "/objects/" + strings.Split(r.URL.EscapedPath(),"/")[2])
 
 	if e != nil {
 		log.Println(e)
@@ -36,7 +36,7 @@ func put(w http.ResponseWriter, r *http.Request) {
 }
 
 func get(w http.ResponseWriter, r *http.Request) {
-	f, e := os.Open(os.Getenv("STORAGE_ROOT") + "/objects/" + strings.Split(r.URL.EscapedPath(), "/")[2])
+	f, e := os.Open(os.Getenv("STORAGE_ROOT") + "/" + os.Getenv("OBJECT_DIR") + "/objects/" + strings.Split(r.URL.EscapedPath(), "/")[2])
 	if e != nil {
 		log.Println(e)
 		w.WriteHeader(http.StatusNotFound)

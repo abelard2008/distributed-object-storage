@@ -1,8 +1,8 @@
-package dataserver
+package main
 
 import (
-	"apiserver/locate"
 	"dataserver/heartbeat"
+	"dataserver/locate"
 	"dataserver/objects"
 	"log"
 	"net/http"
@@ -11,7 +11,7 @@ import (
 
 func main() {
 	go heartbeat.StartHeartbeat()
+	go locate.StartLocate()
 	http.HandleFunc("/objects/", objects.Handler)
-	http.HandleFunc("/locate/",locate.Handler)
 	log.Fatal(http.ListenAndServe(os.Getenv("LISTEN_ADDRESS"),nil))
 }

@@ -39,7 +39,7 @@ func Locate(name string) string {
 	s, _ := strconv.Unquote(string(msg.Body))
 	return s
 }
-
+/*
 func StartLocate() {
 	q := rabbitmq.New(os.Getenv("RABBITMQ_SERVER"))
 	defer q.Close()
@@ -57,4 +57,9 @@ func StartLocate() {
 			q.Send(msg.ReplyTo, os.Getenv("LISTEN_ADDRESS"))
 		}
 	}
+}
+*/
+
+func Exist(name string) bool {
+	return Locate(name) != ""
 }
